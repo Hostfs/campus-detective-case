@@ -1,0 +1,38 @@
+2026-05-20 08:40:01 INFO login user=jimin ip=10.0.0.11
+2026-05-20 08:40:09 INFO GET /project 200 user=jimin
+2026-05-20 08:41:12 INFO login user=sora ip=10.0.0.12
+2026-05-20 08:41:20 INFO GET /project/assets 200 user=sora
+2026-05-20 08:42:03 INFO login user=minho ip=10.0.0.13
+2026-05-20 08:42:19 INFO GET /project 200 user=minho
+2026-05-20 08:43:01 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 08:43:27 INFO GET /project/screenshot.png 200 user=sora
+2026-05-20 08:44:05 INFO GET /project/src/submit.py 200 user=minho
+2026-05-20 08:44:58 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 08:45:31 INFO POST /upload 201 user=sora file=screen-main.png
+2026-05-20 08:46:10 INFO GET /project/final_report.md 404 user=jimin
+2026-05-20 08:46:44 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 08:47:18 INFO POST /save 200 user=jimin file=draft_report.md
+2026-05-20 08:48:02 INFO GET /project/src/config.py 200 user=minho
+2026-05-20 08:48:45 INFO GET /project/assets 200 user=sora
+2026-05-20 08:49:11 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 08:49:53 INFO GET /project/final_report.md 404 user=sora
+2026-05-20 08:50:07 INFO POST /upload 201 user=sora file=team-photo.png
+2026-05-20 08:50:29 INFO GET /project/src/submit.py 200 user=minho
+2026-05-20 08:51:02 INFO POST /upload 201 user=sora file=final_report.md
+2026-05-20 08:51:22 INFO GET /project/final_report.md 200 user=sora
+2026-05-20 08:52:03 INFO GET /project/final_report.md 200 user=jimin
+2026-05-20 08:52:41 INFO GET /project/final_report.md 200 user=minho
+2026-05-20 08:53:20 INFO GET /project 200 user=minho
+2026-05-20 08:54:06 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 08:54:39 INFO POST /save 200 user=jimin file=draft_report.md
+2026-05-20 08:55:05 INFO GET /project/final_report.md 200 user=sora
+2026-05-20 08:55:33 INFO GET /project 200 user=minho
+2026-05-20 08:56:01 INFO POST /file/action 200 user=minho target=final_report.md result=removed
+2026-05-20 08:56:18 INFO GET /project/final_report.md 404 user=sora
+2026-05-20 08:57:02 INFO GET /project/final_report.md 404 user=jimin
+2026-05-20 08:57:44 INFO GET /project 200 user=minho
+2026-05-20 08:58:03 INFO GET /submit/status 200 user=sora
+2026-05-20 08:58:25 INFO GET /project/final_report.md 404 user=sora
+2026-05-20 08:59:10 INFO GET /project/draft_report.md 200 user=jimin
+2026-05-20 09:00:00 INFO backup case files user=admin
+
