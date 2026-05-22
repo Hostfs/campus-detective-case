@@ -101,17 +101,18 @@ grep -rn "minho" .
 
 브랜치:
 ```text
-main
+gyseongpark
 ```
 
-测 커밋:
+첫 커밋:
 ```text
-[main 0993f28] Complete case report
+[gyseongpark 45318a2] Complete case report
 ```
 
 사용한 명령어:
 ```bash
 git status
+git switch -c gyseongpark
 git add case-report.md
 git commit -m "Complete case report"
 git log --oneline -3
